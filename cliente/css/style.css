@@ -596,7 +596,6 @@ img {
 
 .grid-pager .boton-pagina:first-child,
 .grid-pager .boton-pagina.active {
-	color: #FFF;
 	background-color: #313A4F;
 }
 
@@ -694,7 +693,7 @@ img {
 		margin-bottom: 80px;
 	}
 
-}	
+}
 
 @media only screen and (max-width: 780px) {
 
@@ -739,7 +738,7 @@ img {
 	}
 
 
-}	
+}
 
 @media only screen and (max-width: 640px) {
 
@@ -820,7 +819,7 @@ img {
 		display: none;
 	}
 
-}	
+}
 
 @media only screen and (max-width: 480px) {
 	.paso-1 .btn-film {
@@ -829,4 +828,3 @@ img {
 	}
 
 }
-
