@@ -137,10 +137,10 @@ function ControladorPeliculas() {
                 boton.appendTo($(".btn-group"));
                 //este botón no va a ser mas de la clase ejemplo-boton
                 boton.removeClass("ejemplo-boton");
-                // se cambia de color el botón si coincide con la página seleccionada y si no se selecciona el primer elemento que es el predeterminado
+                // se cambia de color el botón de la página seleccionada y si es distinto al primer elemento que es el predeterminado
                 if (i == pagina - 1 && pagina - 1 !== 0) {
-                  boton.css("background-color", "#313A4F");
-                  $("div button:first-child").css( "background-color", "#293143");
+                  boton.css({"color": "#FFF", "background-color": "#313A4F"});
+                  $(".btn-group.grid-pager button:first-child").css( {"color": "#C9D5EC", "background-color": "#293143"});
                 }
 
                 //se muestra el botón creado
